@@ -14,7 +14,7 @@ def crew
 end
 
 def greet_crew(crew)
-  crew.each {|crew_member| puts "Hello #{crew_member}."}
+  crew.map {|crew_member| puts "Hello #{crew_member}."}
   binding.pry
 end
 
