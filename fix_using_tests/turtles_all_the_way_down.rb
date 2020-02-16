@@ -15,4 +15,5 @@ def turtle_traits(turtles)
       trait
     }
   }
+  binding.pry
 end
