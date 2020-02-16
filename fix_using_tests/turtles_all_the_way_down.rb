@@ -18,4 +18,4 @@ def turtle_traits(turtles)
   binding.pry
 end
 
-turtle_traits(turtles)
+puts turtle_traits(turtles)
