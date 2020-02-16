@@ -11,7 +11,6 @@ end
 
 def turtle_traits(turtles)
   turtles.map { |turtle| turtle[:traits] }
-  # binding.pry
 end
 
 puts turtle_traits(turtles)
