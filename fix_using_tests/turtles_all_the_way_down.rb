@@ -9,13 +9,6 @@ def turtles
     ]
 end
 
-# def turtle_traits(turtles)
-#   turtles.map
-#   { |turtle| turtle[:traits].each
-#     { |trait| trait }
-#   }
-# end
-
 def turtle_traits(turtles)
   turtles.map { |turtle| turtle[:traits] }
   # binding.pry
